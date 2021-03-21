@@ -85,6 +85,8 @@ namespace ETFApi.Domain.Entities
 
         public List<Listing> ExchangeListings { get; set; }
         public List<Holding> TopTenHoldings { get; set; }
+        
+        // TODO check if annualised performances required separated property
         public List<FundPerformanceValue> FundPerformances { get; set; }
     }
 }

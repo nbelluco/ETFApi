@@ -71,6 +71,7 @@ namespace ETFApi.PdfParsers.Parsers
             return performances;
         }
 
+        // TODO need to complete
         private List<string> ExtractAnnualisedPerformanceValues()
         {
             var performances = new List<string>();
