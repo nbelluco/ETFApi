@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETFApi.Data", "ETFApi.Data\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETFApi.Domain", "ETFApi.Domain\ETFApi.Domain.csproj", "{10406891-EC30-4DFC-9276-52436B25E270}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETFApi.PdfParsers", "ETFApi.PdfParsers\ETFApi.PdfParsers.csproj", "{A19B3034-2A38-4D63-AC7C-13F478369290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{10406891-EC30-4DFC-9276-52436B25E270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10406891-EC30-4DFC-9276-52436B25E270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10406891-EC30-4DFC-9276-52436B25E270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19B3034-2A38-4D63-AC7C-13F478369290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19B3034-2A38-4D63-AC7C-13F478369290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19B3034-2A38-4D63-AC7C-13F478369290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19B3034-2A38-4D63-AC7C-13F478369290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
