@@ -5,4 +5,12 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="PdfPig" Version="0.1.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ETFApi.Domain\ETFApi.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
