@@ -10,17 +10,15 @@ namespace ETFApi.PdfParsers.Parsers
     {
         private readonly byte[] _pdfBytes;
         protected abstract List<KeyValuePair<string, (string, string)>> ContentParts { get; set; }
+        private Dictionary<string, string> ContentPairs { get; set; }
+
         protected PdfParser(byte[] pdfBytes)
         {
             _pdfBytes = pdfBytes;
         }
         
-        private Dictionary<string, string> ContentPairs { get; set; }
-
         public Etf ExtractContent()
         {
-            Dictionary<string, string> contentDictionary;
-            
             using (var document = PdfDocument.Open(_pdfBytes))
             {
                 var content = new StringBuilder();
