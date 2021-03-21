@@ -10,7 +10,7 @@ namespace ETFApi.PdfParsers.Parsers
     {
         private readonly byte[] _pdfBytes;
         protected abstract List<KeyValuePair<string, (string, string)>> ContentParts { get; set; }
-        private Dictionary<string, string> ContentPairs { get; set; }
+        protected Dictionary<string, string> ContentPairs { get; set; }
 
         protected PdfParser(byte[] pdfBytes)
         {
@@ -64,6 +64,5 @@ namespace ETFApi.PdfParsers.Parsers
         }
         
         private protected abstract Etf ParseContentToEtfObject();
-
     }
 }
